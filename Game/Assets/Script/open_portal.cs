@@ -17,6 +17,7 @@ public class open_portal : MonoBehaviour
         //PortalEnd.SetActive(false);
         PortalEnd.SetActive(false);
         isOn = false;
+        
     }
 
     // Update is called once per frame

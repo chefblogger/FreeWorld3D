@@ -21,8 +21,8 @@ public class portal : MonoBehaviour
     {
         if (collision.transform.tag == "Player")
         {
-            Debug.Log("Next-Scene");
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            //Debug.Log("Next-Scene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         }
 
     }
