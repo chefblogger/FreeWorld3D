@@ -51,7 +51,7 @@ AudioSource CoinAudio;
         if (collision.transform.tag == "enemy")
         {
 
-            Debug.Log("Getroffen");
+            //Debug.Log("Getroffen");
             
             Destroy(collision.gameObject);
 
